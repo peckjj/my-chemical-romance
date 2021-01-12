@@ -1,3 +1,19 @@
+/**
+ * 
+ * My Chemical Romance
+ * 
+ *  This file encapsulates a tool for quickly drawing chemical diagrams.
+ * The focus is not on complexity, but rather simplicity by offering a free,
+ * web-based applet to draw large molecular diagrams.
+ * 
+ * Author: Joshua Peck
+ * 
+ * Note: Many thanks to Austin Escobar, a long-time family friend, for providing
+ *       the idea for this project, as well as extensive knowledge and guidance
+ *       related to the conventions of chemistry.
+ * 
+ */
+
 function distancePointToLine(point, line) {
     let x1 = line.p1.x;
     let y1 = line.p1.y;
